@@ -1,0 +1,122 @@
+body
+{
+background-color: white;
+}
+
+#cards
+{
+margin-top: 0px;
+margin-bottom: 30px;
+text-align: center;
+}
+.editar-card
+{
+background-color: #efefef;
+padding:5%;
+margin-top: 10%;
+margin-bottom: 10%;
+}
+.efeito-card
+{
+transition: transform 0.5s;
+}
+.efeito-img
+{
+transition: transform 0.5s;	
+}
+.efeito-img:hover
+{
+transform: scale(1.2) rotateY(360deg);
+cursor: pointer;
+}
+.bg-card 
+{
+ background-color: black;
+ color: white;
+ border-radius: 25px;
+}
+.h
+{
+color: blue;
+}
+.display-3
+{
+margin-top: 25%;
+}
+#rodape
+{
+background-image: linear-gradient(black, white);
+padding-top: 50px;
+margin-top: 20%;
+
+}
+.mgrodape
+{
+margin-left: 100%;
+display: flex;
+justify-content: right;
+flex-direction: column;
+}
+#texto
+{
+text-indent: 20px;
+text-align: justify;
+text-justify: inter-word;
+background-color: rgba(0,0,0,0.5);
+}
+#news
+{
+text-shadow: 5px 5px 10px black;
+}
+.imgf
+{
+margin:0 auto;
+}
+.sub-category
+{
+margin: 0;	 
+display: -webkit-flex;
+justify-content: center;
+margin-top: 10px;
+text-decoration: none;
+color: black;
+display: flex;
+}
+.categoria
+{
+display: inline-block;	
+margin-bottom: 20px;
+text-shadow: 5px 5px 10px black;
+}
+#link
+{
+display: inline;
+text-center;
+}
+#ntc1 
+{
+margin-bottom: 10px;
+}
+.imga
+{
+text-decoration: none;
+color: black;	
+}
+#txt
+{
+background-color: rgba(0,0,0,0.5);
+color: white;	
+}
+#div1
+{
+margin-top: 90px;
+}
+#div2
+{
+margin-top: 300px;	
+}
+#t
+{
+	background-color: rgba(0,0,0,0.5);
+	
+}
