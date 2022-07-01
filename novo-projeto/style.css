@@ -64,9 +64,10 @@ text-align: justify;
 text-justify: inter-word;
 background-color: rgba(0,0,0,0.5);
 }
-#news
+#news1
 {
 text-shadow: 5px 5px 10px black;
+background-color: transparent;
 }
 .imgf
 {
@@ -119,4 +120,43 @@ margin-top: 300px;
 {
 	background-color: rgba(0,0,0,0.5);
 	
+}
+/*style streetleague*/
+#titleST
+{
+text-align: center;	
+margin-top: 10px;
+text-decoration: underline overline dotted white;
+color: white;
+}
+.paragrafo
+{
+text-align: center;
+color: white;	
+}
+.yt
+{
+width: 750px;
+margin:0 auto;
+display: block;
+
+}
+#news
+{
+color: white;
+}
+.textone
+{
+margin-top: 10px;
+color: white;
+text-align: center;
+}
+.textwo
+{
+color: white;
+text-align: center;
+}
+.textree
+{
+color: white;
 }
