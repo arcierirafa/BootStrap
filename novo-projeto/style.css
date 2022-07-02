@@ -47,7 +47,7 @@ margin-top: 25%;
 {
 background-image: linear-gradient(black, white);
 padding-top: 50px;
-margin-top: 20%;
+margin-top: 0%;
 
 }
 .mgrodape
@@ -92,7 +92,7 @@ text-shadow: 5px 5px 10px black;
 #link
 {
 display: inline;
-text-center;
+
 }
 #ntc1 
 {
@@ -159,4 +159,71 @@ text-align: center;
 .textree
 {
 color: white;
+}
+#contato
+{
+.d-none {display: none;}
+.d-block {display: block;}	
+}
+/* tela de login estilizado */
+#logo-login
+{
+margin-top: -17%;
+text-align: center;
+}
+#loging
+{
+margin-top: -15%;
+text-align: center; 
+}
+.link
+{
+text-decoration: none;	
+color: black;
+}
+#formlg
+{
+text-align: center;
+right:	20px;
+margin-top: -6%
+}
+#input-email
+{
+	width: 387px;
+	height:30px;
+	margin-bottom: 10px;
+}
+#input-senha
+{
+	width: 387px;
+	height:30px;
+}
+#pl
+{
+text-align: center;
+margin-left: 240px;
+}
+#p-reset
+{
+	text-decoration: none;
+	color: rgba(0,0,0,0.5);
+	box-shadow: gray;
+}
+.butao1
+{
+margin-left: 1px;	
+margin-right: 150px ;
+}
+#midia
+{
+margin-top: 20%;
+text-align: end;	
+}
+.p1
+{
+margin-right: 450px;	
+}
+.imgsocial5
+{
+margin-right: 240px;	
 }

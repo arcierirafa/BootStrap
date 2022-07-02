@@ -59,5 +59,24 @@ window.onload = function(){
 		mascara( this, mtel );
 	}
 }
-
+var json =[
+{
+	"id":news,
+}
+	function searchContato() {
+		var contato= document.quarySelector("input").value
+		
+		document.querySelector(".message").classList.Add('d-block');
+		document.querySelector('ul').classList.remove('d-block');
+	
+		for (var i = 0; i < json.length; i++) {
+        var item = json[i];
+	
+	if ( pesquisa = item.pesquisa ) { 
+      document.querySelector(".camisa").innerHTML = item.pesquisa;
+      document.querySelector("").innerHTML = item.;
+      document.querySelector("").innerHTML = item.;
+      document.querySelector("").innerHTML = item.;
+    }
+  }
  
