@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Comtiple" content="IE-edge">
 	<meta name="viewport" content="width=device-width, initial scale= 1.0">
-	<title> Tela de Login </title>
+	<title> Cadastro </title>
 	<link rel="stylesheet" href="res/bootstrap/css/bootstrap.min.css">	
 	<link rel="stylesheet" href="style.css">
 </head>
@@ -16,10 +16,10 @@
 				<div class="navbar-nav">
 				</div>
 			</div>
-				<div id="navtext">
+			<div id="navtext">
 				<h1 id="navtext"><i> COMPRE AGORA E PAGUE DEPOIS COM AFTERPAY </i></h1>
 			</div>
-		</div>
+		</div>	
 </nav>
 <section>
 	<div class="container">
@@ -35,24 +35,33 @@
 	<div class="container">
 		<div class="row">
 			<div id="loging" class="col-12">
-				<h2 id="logintext"> Login </h2>
-				<p id="p"> Não tem uma conta? <a href="cadastro.html" class="link"> Clique Aqui. </a></p>
+				<h2 id="logintext"> Criar Conta </h2>
+				<p id="p"> já tem uma conta? <a href="login.html" class="link"> Clique Aqui. </a></p>
 			</div>	
 		</div>
 	</div>
 	<div class="container">
 		<div class="row">
 			<div class="col-12">
-				<div class="form4">
+				<div class="form2">
+					<div class="row">
+						<div class="col-6">
+							<div id="alert" class="alert alert-danger" style="display: none" role="alert">	validar todos os campos! </div>
+						</div>
+					</div>
 					<form id="formlg" method="post" action="">
+						<input  class="form-control" id="input-name1" type="text" placeholder="Primeiro Nome">	
+						<input  class="form-control" id="input-name2" type="text" placeholder="Segundo Nome">
 						<input  class="form-control" id="input-email" type="text" placeholder="Email">
 						<input  class="form-control" id="input-senha" type="passoword" placeholder="Senha">
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="" id="invalidCheck2" requerid> </input>
+							<label class="form-check-label" for="invalidCheck2"> Concorde com os termos e condiões </label>
+						</div>
 					</form>
 				</div>
-			<p id="pl"><a href="recuperação.html" id="p-reset"> Esqueceu sua senha? </a></p>
-			<div class="text-center butao1">
-				<button  type="button" class="btn btn-primary"> Logar </button>
-				<a href="index.html"><button type="button" class="btn btn-light"> Retornar Para a Loja </button></a>
+			<div class="text-center butao3">
+				<button type="submit" class="btn btn-primary btn-lg-dark" onclick="validarCadastro()"> Enviar </button>
 			</div>
 			</div>
 			<div id="midia">

@@ -23,7 +23,7 @@ transition: transform 0.5s;
 .efeito-img
 {
 transition: transform 0.5s;	
-}
+}		
 .efeito-img:hover
 {
 transform: scale(1.2) rotateY(360deg);
@@ -47,7 +47,7 @@ margin-top: 25%;
 {
 background-image: linear-gradient(black, white);
 padding-top: 50px;
-margin-top: 0%;
+margin-top: 5%;
 
 }
 .mgrodape
@@ -181,13 +181,19 @@ text-align: center;
 text-decoration: none;	
 color: black;
 }
-#formlg
-{
-text-align: center;
-right:	20px;
-margin-top: -6%
-}
 #input-email
+{
+	width: 387px;
+	height:30px;
+	margin-bottom: 10px;
+}
+#input-name1
+{
+	width: 387px;
+	height:30px;
+	margin-bottom: 10px;
+}
+#input-name2
 {
 	width: 387px;
 	height:30px;
@@ -205,14 +211,21 @@ margin-left: 240px;
 }
 #p-reset
 {
+	margin-left: 90px;
 	text-decoration: none;
 	color: rgba(0,0,0,0.5);
 	box-shadow: gray;
 }
+.form4
+{
+margin-top: -80px;
+margin-left: 500px;	
+}
 .butao1
 {
 margin-left: 1px;	
-margin-right: 150px ;
+margin-right: 60px ;
+text-decoration: none;
 }
 #midia
 {
@@ -225,5 +238,36 @@ margin-right: 450px;
 }
 .imgsocial5
 {
-margin-right: 240px;	
+margin-right: 290px;	
+}
+.form3
+{
+margin-top: -80px;
+margin-left: 470px;	
+}
+.butao2
+{
+margin-top: 7px ;
+margin-left: 1px;	
+margin-right: 199px ;
+}
+#navtext
+{
+color: white;
+margin-right: 80px;
+color: rgba(255,255,255,0.5);
+}
+.form2
+{
+margin-top: -80px;
+margin-left: 500px;	
+}
+.butao3
+{
+margin-top: 10px;	
+margin-right: 230px;
+}
+#alert
+{
+
 }

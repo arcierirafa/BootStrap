@@ -1,12 +1,15 @@
-function validarFormulario (){
-	let nome= document.getElementById ("nome-completo").value
-	let email= document.getElementById ("email").value
-	let telefone= document.getElementById ("inputFone").value
-	let estado= document.getElementById ("estado").value
-	let cidade= document.getElementById ("city").value
-	let contato= document.getElementById ("motivo-contato").value
+function validarFormulario(){
+	let nome= document.getElementById("nome-completo").value
+	let email= document.getElementById("email").value
+	let telefone= document.getElementById("inputFone").value
+	let estado= document.getElementById("estado").value
+	let cidade= document.getElementById("city").value
+	let contato= document.getElementById("motivo-contato").value
 	let caixaTexto= document.getElementById ("caixaTexto").value
-
+	let name1= document.getElementById("input-name1").value
+	let name2= document.getElementById("input-name2").value
+	let alerta= document.getElementById("alert")
+	
 	if(nome == ""){
 		alert("Preencha o campo do nome:")
 	}
@@ -28,14 +31,23 @@ function validarFormulario (){
 	if(caixaTexto == ""){
 		alert("Preencha o campo da caixa de texto")
 	}
-	console.log (nome)
-	console.log (email)
-	console.log (telefone)
-	console.log (estado)
-	console.log (cidade)
-	console.log (contato)
-	console.log (caixaTexto)
+	if(name1 == ""){
+		alerta.style.display= ""
+			
+	}
+	console.log (name1)
+	
 
+}
+function validarCadastro(){
+	let name1= document.getElementById("input-name1").value
+	let name2= document.getElementById("input-name2").value
+	let alerta= document.getElementById("alert")
+	
+	if(name1 == ""){
+		alerta.style.display= ""
+		console.log(alerta) 		
+	}
 }
 function mascara(o,f){
     v_obj=o
@@ -51,32 +63,5 @@ function mtel(v){
     v=v.replace(/(\d)(\d{4})$/,"$1-$2"); //Coloca hífen entre o quarto e o quinto dígitos
     return v;
 }
-function id( el ){
-	return document.getElementById( el );
-}
-window.onload = function(){
-	id('inputFone').onkeyup = function(){
-		mascara( this, mtel );
-	}
-}
-var json =[
-{
-	"id":news,
-}
-	function searchContato() {
-		var contato= document.quarySelector("input").value
-		
-		document.querySelector(".message").classList.Add('d-block');
-		document.querySelector('ul').classList.remove('d-block');
+
 	
-		for (var i = 0; i < json.length; i++) {
-        var item = json[i];
-	
-	if ( pesquisa = item.pesquisa ) { 
-      document.querySelector(".camisa").innerHTML = item.pesquisa;
-      document.querySelector("").innerHTML = item.;
-      document.querySelector("").innerHTML = item.;
-      document.querySelector("").innerHTML = item.;
-    }
-  }
- 
