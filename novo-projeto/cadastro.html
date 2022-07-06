@@ -7,6 +7,7 @@
 	<title> Cadastro </title>
 	<link rel="stylesheet" href="res/bootstrap/css/bootstrap.min.css">	
 	<link rel="stylesheet" href="style.css">
+	<link rel="icon" href="img/skate.png">
 </head>
 <body>
 <nav id="nav" class="navbar navbar-expand-lg bg-black navbar-dark">
@@ -46,16 +47,18 @@
 				<div class="form2">
 					<div class="row">
 						<div class="col-6">
-							<div id="alert" class="alert alert-danger" style="display: none" role="alert">	validar todos os campos! </div>
+							<div id="alerta-sucesso" class="alert alert-success" style="display: none" role="alert"> Todos os campos foram validados! <button  class="btn btn-button" onclick="ocultarAlerta()">Fechar! </button></div>
+							<div id="alert" class="alert alert-danger" style="display: none" role="alert" >	validar todos os campos! <button  class="btn btn-button" onclick="ocultarAlerta()">Fechar! </button></div>
 						</div>
 					</div>
-					<form id="formlg" method="post" action="">
+					<form id="formlg" method="post" action="#">
 						<input  class="form-control" id="input-name1" type="text" placeholder="Primeiro Nome">	
 						<input  class="form-control" id="input-name2" type="text" placeholder="Segundo Nome">
 						<input  class="form-control" id="input-email" type="text" placeholder="Email">
-						<input  class="form-control" id="input-senha" type="passoword" placeholder="Senha">
+						<input  class="form-control" id="input-senha" type="password" placeholder="Senha">
+						<input type="checkbox" onclick="mostrarOcultarSenha()"> Mostrar Senha  
 						<div class="form-check">
-							<input class="form-check-input" type="checkbox" value="" id="invalidCheck2" requerid> </input>
+							<input class="form-check-input" type="checkbox" value="teste" id="invalidCheck2" requerid> </input>
 							<label class="form-check-label" for="invalidCheck2"> Concorde com os termos e condiões </label>
 						</div>
 					</form>
