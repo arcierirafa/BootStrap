@@ -1,0 +1,278 @@
+body
+{
+background-color: white;
+}
+
+#cards
+{
+margin-top: 0px;
+margin-bottom: 30px;
+text-align: center;
+}
+.editar-card
+{
+background-color: #efefef;
+padding:5%;
+margin-top: 10%;
+margin-bottom: 10%;
+}
+.efeito-card
+{
+transition: transform 0.5s;
+}
+.efeito-img
+{
+transition: transform 0.5s;	
+}		
+.efeito-img:hover
+{
+transform: scale(1.2) rotateY(360deg);
+cursor: pointer;
+}
+.bg-card 
+{
+ background-color: black;
+ color: white;
+ border-radius: 25px;
+}
+.h
+{
+color: blue;
+}
+.display-3
+{
+margin-top: 25%;
+}
+#rodape
+{
+background-image: linear-gradient(black, white);
+padding-top: 50px;
+margin-top: 5%;
+
+}
+.mgrodape
+{
+margin-left: 100%;
+display: flex;
+justify-content: right;
+flex-direction: column;
+}
+#texto
+{
+text-indent: 20px;
+text-align: justify;
+text-justify: inter-word;
+background-color: rgba(0,0,0,0.5);
+}
+#news1
+{
+text-shadow: 5px 5px 10px black;
+background-color: transparent;
+}
+.imgf
+{
+margin:0 auto;
+}
+.sub-category
+{
+margin: 0;	 
+display: -webkit-flex;
+justify-content: center;
+margin-top: 10px;
+text-decoration: none;
+color: black;
+display: flex;
+}
+.categoria
+{
+display: inline-block;	
+margin-bottom: 20px;
+text-shadow: 5px 5px 10px black;
+}
+#link
+{
+display: inline;
+
+}
+#ntc1 
+{
+margin-bottom: 10px;
+}
+.imga
+{
+text-decoration: none;
+color: black;	
+}
+#txt
+{
+background-color: rgba(0,0,0,0.5);
+color: white;	
+}
+#div1
+{
+margin-top: 90px;
+}
+#div2
+{
+margin-top: 300px;	
+}
+#t
+{
+	background-color: rgba(0,0,0,0.5);
+	
+}
+/*style streetleague*/
+#titleST
+{
+text-align: center;	
+margin-top: 10px;
+text-decoration: underline overline dotted white;
+color: white;
+}
+.paragrafo
+{
+text-align: center;
+color: white;	
+}
+.yt
+{
+width: 750px;
+margin:0 auto;
+display: block;
+
+}
+#news
+{
+color: white;
+}
+.textone
+{
+margin-top: 10px;
+color: white;
+text-align: center;
+}
+.textwo
+{
+color: white;
+text-align: center;
+}
+.textree
+{
+color: white;
+}
+#contato
+{
+.d-none {display: none;}
+.d-block {display: block;}	
+}
+/* tela de login estilizado */
+#logo-login
+{
+margin-top: -17%;
+text-align: center;
+}
+#loging
+{
+margin-top: -15%;
+text-align: center; 
+}
+.link
+{
+text-decoration: none;	
+color: black;
+}
+#input-email
+{
+	width: 387px;
+	height:30px;
+	margin-bottom: 10px;
+}
+#input-name1
+{
+	width: 387px;
+	height:30px;
+	margin-bottom: 10px;
+}
+#input-name2
+{
+	width: 387px;
+	height:30px;
+	margin-bottom: 10px;
+}
+#input-senha
+{
+	width: 387px;
+	height:30px;
+}
+#pl
+{
+text-align: center;
+margin-left: 240px;
+}
+#p-reset
+{
+	margin-left: 90px;
+	text-decoration: none;
+	color: rgba(0,0,0,0.5);
+	box-shadow: gray;
+}
+.form4
+{
+margin-top: -80px;
+margin-left: 500px;	
+}
+.butao1
+{
+margin-left: 1px;	
+margin-right: 60px ;
+text-decoration: none;
+}
+#midia
+{
+margin-top: 20%;
+text-align: end;	
+}
+.p1
+{
+margin-right: 450px;	
+}
+.imgsocial5
+{
+margin-right: 290px;	
+}
+.form3
+{
+margin-top: -80px;
+margin-left: 470px;	
+}
+.butao2
+{
+margin-top: 7px ;
+margin-left: 1px;	
+margin-right: 199px ;
+}
+#navtext
+{
+color: white;
+margin-right: 80px;
+color: rgba(255,255,255,0.5);
+}
+.form2
+{
+margin-top: -80px;
+margin-left: 500px;	
+}
+.butao3
+{
+margin-top: 10px;	
+margin-right: 230px;
+}
+.col
+{
+transition: transform 0.5s;	
+}
+.col:hover
+{
+transform: scale(1.1) ;
+cursor: pointer;
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Comtiple" content="IE-edge">
+	<meta name="viewport" content="width=device-width, initial scale= 1.0">
+	<title> Cadastro </title>
+	<link rel="stylesheet" href="res/bootstrap/css/bootstrap.min.css">	
+	<link rel="stylesheet" href="style.css">
+	<link rel="icon" href="img/skate.png">
+</head>
+<body>
+<nav id="nav" class="navbar navbar-expand-lg bg-black navbar-dark">
+		<div class="container">
+			<div class="collapse navbar-collapse">
+			<a class="navbar-brand" href="#"> <img src="img/skate.png"  alt="Foto Do Meu Site" width="80" heigth="75"> </a>
+				<div class="navbar-nav">
+				</div>
+			</div>
+			<div id="navtext">
+				<h1 id="navtext"><i> COMPRE AGORA E PAGUE DEPOIS COM AFTERPAY </i></h1>
+			</div>
+		</div>	
+</nav>
+<section>
+	<div class="container">
+		<div class="row">
+			<div id="logo-login">
+				<img src="img/logologin.png">
+			</div>
+		</div>
+	</div>
+</section>
+
+<section>
+	<div class="container">
+		<div class="row">
+			<div id="loging" class="col-12">
+				<h2 id="logintext"> Criar Conta </h2>
+				<p id="p"> já tem uma conta? <a href="login.html" class="link"> Clique Aqui. </a></p>
+			</div>	
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<div class="form2">
+					<div class="row">
+						<div class="col-6">
+							<div id="alerta-sucesso" class="alert alert-success" style="display: none" role="alert"> Cadastro realizado com sucesso! <button  class="btn btn-button" onclick="ocultarAlerta()">Fechar! </button></div>
+							<div id="alert" class="alert alert-danger" style="display: none" role="alert" >	Valide os campos que não foram preenchidos! <button  class="btn btn-button" onclick="ocultarAlerta()">Fechar! </button></div>
+						</div>
+					</div>
+					<form id="formlg">
+						<input  class="form-control" id="input-name1" type="text" placeholder="Primeiro Nome">	
+						<input  class="form-control" id="input-name2" type="text" placeholder="Segundo Nome">
+						<input  class="form-control" id="input-email" type="text" placeholder="Email">
+						<input  class="form-control" id="input-senha" type="password" placeholder="Senha">
+						<input class="form-check-input" type="checkbox" onclick="mostrarOcultarSenha()"> Mostrar Senha  
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="teste" id="invalidCheck2" requerid> </input>
+							<label class="form-check-label" for="invalidCheck2"> Concorde com os termos e condiões </label>
+						</div>
+				</div>
+				<div class="text-center butao3">
+				<button type="submit" class="btn btn-primary btn-lg-dark" onclick="validarCadastro()"> Enviar </button>
+				</div>
+			</div>
+				</form>
+			<div id="midia">
+				<p class="p1"> Social </p>
+				<p> Mantenha-se atualizado com as atualizações de nossos canais sociais. </p>
+				<a href="https://www.instagram.com/flipskateboards/"><img class="imgsocial" src="img/logoinsta.png"  width="50" heigth="65"></a>
+				<a href="https://www.facebook.com/flipskateboards"><img class="imgsocial2" src="img/logoface.png" width="50" heigth="65"></a>
+				<a href="https://twitter.com/flipskateboards"><img class="imgsocial3" src="img/logott.png" width="50" heigth="65"></a>
+				<a href="https://www.youtube.com/c/FlipSkateboards1991"><img class="imgsocial5" src="img/logoyt.png" width="50" heigth="65"></a>
+			</div>
+		</div>
+	</div>
+</section>
+
+<footer id="rodape">
+	<div class="container">	
+		<div id="linha" class="row">
+			<div class="col-4">
+				<img src="img/logo.png" style="
+				max-height: 45%;
+				max-width: 45%;
+				margin-top: 100px">
+			</div>
+			<div class="col-4 text-center">
+				<ul class="nav justify-content-center">
+					<li class="nav-item"><a class="nav-link text-muted" href="#" style="margin-top: 150px"> Inicio </a> </li>
+				</ul>
+			</div>
+			<br/>
+			<div id="div" class="col-4 text-end">
+				<img src="img/whatsapp32.png" class="mgrodape">
+			<br/>
+				<img src="img/instagram32.png" class="mgrodape">
+			<br/>
+				<img src="img/facebook32.png" class="mgrodape">
+			</div>
+		</div>
+	</div>
+</footer>
+<script type="text/javascript" src="res/bootstrap/js/bootstrap.min.js"> </script>
+<script type="text/javascript" src="js/script.js"> </script>
+</body>
+</html>
