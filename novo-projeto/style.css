@@ -267,11 +267,12 @@ margin-left: 500px;
 margin-top: 10px;	
 margin-right: 230px;
 }
-#alert
+.col
 {
-
+transition: transform 0.5s;	
 }
-#alerta-Sucesso
+.col:hover
 {
-	
+transform: scale(1.1) ;
+cursor: pointer;
 }
